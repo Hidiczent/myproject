@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input type="text" id="textt" placeholder="First Name">
+        <input type="age" id="agee" placeholder="age" onclick="check_number()">
+        <button onclick="function_Show()">Go</button>
+        <!-- <button onclick="function_Show()">Go</button> -->
+        <p id="show">Show data</p>
+    </div>
+    <script>
+        function function_Show(){
+            // alert("aafa")
+            let value=document.getElementById('textt').value
+            alert(value);
+            // return valuea
+        }
+        function check_number(){
+            // let name=document.getElementById('text').value
+            let age=document.getElementById('agee').value
+            if (!isNaN(name)){
+                alert('ບໍ່ສາມາດປ້ອນຂໍ້ມູນໄດ້')
+                // document.getElementById('text').style.border='5px solid red'
+            }
+        }
+
+        // let and =function_Show(value)
+        // document.getElementById('show').innerHTML=and
+
+    </script>
+</body>
+</html>

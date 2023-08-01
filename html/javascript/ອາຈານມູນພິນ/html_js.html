@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <input type="number" id="textnumber">
+        </div>
+        <div>
+        <input type="button" onclick="my_grade()" value="Go">
+        <input type="button" onclick="Add()" value="+" id="plus">  
+    </div>
+    <div>
+        <h1 id="show"></h1>
+    </div>
+    </div>
+    <script>
+        function my_grade() {
+            let score = document.getElementById('textnumber').value
+            let let_grade = ' '
+            if (score >= 91 && score <= 100) {
+                let_grade = 'A';
+                color="green"
+            }
+            else if (score >= 81 && score <= 90) {
+                let_grade = 'B+';
+            }
+            else if (score >= 76 && score <= 80) {
+                let_grade = 'B';
+            }
+            else if (score >= 71 && score <= 75) {
+                let_grade = 'C+';
+            }
+            else if (score >= 66 && score <= 70) {
+                let_grade = 'C';
+            }
+            else if (score >= 61 && score <= 65) {
+                let_grade = 'D+';
+            }
+            else if (score >= 50 && score <= 60) {
+                let_grade = 'D';
+                color="red"
+            }
+            else if (score >= 1 && score <= 49) {
+                let_grade = 'F'
+                color='red'
+            }
+            else {
+                let_grade = 'Invalid Grade'
+                color='red'
+            }
+            document.getElementById('show').innerHTML="Your Grade is "+let_grade
+            document.getElementById('show').style.color='green'
+            if(let_grade =='F'){
+             document.getElementById('show').style.color='red'
+            }
+            else if(let_grade == 'Invalid Grade'){
+             document.getElementById('show').style.color='red'
+            }
+    }
+        
+    </script>
+</body>
+
+</html>

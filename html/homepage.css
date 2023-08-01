@@ -1,0 +1,53 @@
+ul {
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #333; */
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: rgb(252, 249, 249);
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  /* background-color: rgb(255, 255, 255); */
+  border-bottom: 3px solid rgb(255, 255, 255);
+}
+body{
+  background-image: url(inmage/honkai.jpg);
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+h1{
+  /* background-image: url(inmage/93253458.jpg); */
+  font-size: 55px; 
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:#fff;
+  text-shadow:  2px 1px black;
+  /* text-align:; */
+  text-align: center;  
+  margin-top: 300px;
+ 
+  
+}
+p{
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 3px black;
+  margin-top: 30px;
+  text-align: center;
+}

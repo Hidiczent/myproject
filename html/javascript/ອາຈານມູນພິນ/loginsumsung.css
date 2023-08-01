@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 5%auto;
+    background-color: rgb(255, 255, 255);
+    width:800px;
+    height: 800px;
+    border-radius: 30px;
+}
+.font{
+    text-align: center;
+    position: relative;
+    font-size: 15px;
+    left: 230px;
+    top: 30px;
+}
+.navbar{
+    padding: 30px;
+    width: auto;
+    background-color: black;
+    color: aliceblue;
+    /* font-family:Arial, Helvetica, sans-serif; */
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+#ema{
+    background-color: none;
+    position: relative;
+    top: 150px;
+    width: 350px;
+    padding: 10px;
+    height: 10px;
+    border-bottom: 2px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+
+
+}
+.Remember{
+    position: relative;
+    top:210px;
+    right: 364px;
+}
+#fontRe{
+    position: relative;
+    right: -25px;
+    top:-22px;
+}
+#Remem{
+width: 15px;
+height: 15px;
+}

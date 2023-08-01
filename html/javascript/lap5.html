@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+
+</head>
+<body>
+     <h2> JavaScript HTML DOM</h2>
+     <p>Finding HTML Element by tag name.</p>
+     <p>This example demonstrates the <b>getElementTagname</b> Method.</p>
+
+    <!-- <p id="webdev">Web development</p>
+    <p id="intro">Computer sicence</p>
+     <p>This example demonstrates the <b>getElementById</b> Method.</p>
+    <p id="demo"></p>
+-->
+    <p id="jim">welcome :</p>
+    <p id="demo"></p>
+
+    <script>
+        // const element=document.getElementById('intro');
+        // document.getElementById('demo').innerHTML =
+        // 'The text from the intro paragrapgh is: '+ element.innerHTML;
+        
+        const webb = document.getElementById('webdev');
+        const jimm= document.getElementById('jim');
+        document.getElementById('jim').innerHTML= jimm.innerHTML + webb.innerHTML;
+        // const element =document.getElementsByTagName('h2');
+        document.getElementById('demo').innerHTML='The text in  first paragraph (index0) is:'+element[0].innerHTML;
+    </script>
+</body>
+</html>

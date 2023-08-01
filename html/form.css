@@ -1,0 +1,11 @@
+*{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+label{
+    font-weight: bold;
+}
+.Email{
+    text-align: center;
+}
